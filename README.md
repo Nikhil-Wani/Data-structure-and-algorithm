@@ -56,7 +56,9 @@ Insert: Algorithm developed for inserting an item inside a data structure.
 
 Update: Algorithm developed for updating the existing element inside a data structure.
 
+
 The performance of algorithm is measured on the basis of following properties:
+
 Time complexity: It is a way of representing the amount of time needed by a program to run to the completion.
 
 Space complexity: It is the amount of memory space required by an algorithm, during a course of its execution. Space complexity is required in situations when limited memory is available and for the multi user system.
