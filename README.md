@@ -30,7 +30,7 @@ Multiple requests: If thousands of users are searching the data simultaneously o
 
 in order to solve the above problems, data structures are used. Data is organized to form a data structure in such a way that all items are not required to be searched and required data can be searched instantly.
 
-#Advantages of Data Structures:
+# Advantages of Data Structures:
 
 Efficiency: Efficiency of a program depends upon the choice of data structures. For example: suppose, we have some data and we need to perform the search for a perticular record. In that case, if we organize our data in an array, we will have to search sequentially element by element. hence, using array may not be very efficient here. There are better data structures which can make the search process efficient like ordered array, binary search tree or hash tables.
 
