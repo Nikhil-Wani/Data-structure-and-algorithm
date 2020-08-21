@@ -174,3 +174,20 @@ If A Contains 0 or 1 elements then it is already sorted, otherwise, Divide A int
 Conquer means sort the two sub-arrays recursively using the merge sort.
 
 Combine the sub-arrays to form a single final sorted array maintaining the ordering of the array.
+
+# Quick Sort
+
+Quick sort is the widely used sorting algorithm that makes n log n comparisons in average case for sorting of an array of n elements. This algorithm follows divide and conquer approach. The algorithm processes the array in the following way.
+
+Set the first index of the array to left and loc variable. Set the last index of the array to right variable. i.e. left = 0, loc = 0, en d = n - 1, where n is the length of the array.
+Start from the right of the array and scan the complete array from right to beginning comparing each element of the array with the element pointed by loc.
+
+Ensure that, a[loc] is less than a[right].
+
+If this is the case, then continue with the comparison until right becomes equal to the loc.
+If a[loc] > a[right], then swap the two values. And go to step 3.
+Set, loc = right
+start from element pointed by left and compare each element in its way with the element pointed by the variable loc. Ensure that a[loc] > a[left]
+if this is the case, then continue with the comparison until loc becomes equal to left.
+[loc] < a[right], then swap the two values and go to step 2.
+Set, loc = left.
