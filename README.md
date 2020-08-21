@@ -185,16 +185,16 @@ Start from the right of the array and scan the complete array from right to begi
 
 Ensure that, a[loc] is less than a[right].
 
-If this is the case, then continue with the comparison until right becomes equal to the loc.
+  If this is the case, then continue with the comparison until right becomes equal to the loc.
 
-If a[loc] > a[right], then swap the two values. And go to step 3.
+  If a[loc] > a[right], then swap the two values. And go to step 3.
 
-Set, loc = right
+  Set, loc = right
 
 start from element pointed by left and compare each element in its way with the element pointed by the variable loc. Ensure that a[loc] > a[left]
 
-if this is the case, then continue with the comparison until loc becomes equal to left.
+  if this is the case, then continue with the comparison until loc becomes equal to left.
 
-[loc] < a[right], then swap the two values and go to step 2.
+  [loc] < a[right], then swap the two values and go to step 2.
 
-Set, loc = left.
+  Set, loc = left.
