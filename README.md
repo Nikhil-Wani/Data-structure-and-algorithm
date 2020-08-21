@@ -83,10 +83,13 @@ Best case: It defines the input for which the algorithm takes the lowest time.
 The commonly used asymptotic notations used for calculating the running time complexity of an algorithm is given below:
 
 Big oh Notation (Ο)
+
 Omega Notation (Ω)
+
 Theta Notation (θ)
+
 Big oh Notation (O)
-It is the formal way to express the upper boundary of an algorithm running time. It measures the worst case of time complexity or the longest amount of time, algorithm takes to complete their operation. It is represented as shown below:
+It is the formal way to express the upper boundary of an algorithm running time. It measures the worst case of time complexity or the longest amount of time, algorithm takes to complete their operation.
 
 DS Asymptotic Analysis
 For example: If f(n) and g(n) are the two functions defined for positive integers, then f(n) is O(g(n)) as f(n) is big oh of g(n) or f(n) is on the order of g(n)) if there exists constants c and no such that:
@@ -100,12 +103,11 @@ It is the formal way to represent the lower bound of an algorithm's running time
 
 If we required that an algorithm takes at least certain amount of time without using an upper bound, we use big- Ω notation i.e. the Greek letter "omega". It is used to bound the growth of running time for large input size.
 
-If running time is Ω (f(n)), then for the larger value of n, the running time is at least k?f(n) for constant (k). It is represented as shown below:
-
+If running time is Ω (f(n)), then for the larger value of n, the running time is at least k?f(n) for constant (k).
 DS Asymptotic Analysis 1
 Theta Notation (?)
 It is the formal way to express both the upper bound and lower bound of an algorithm running time.
 
-Consider the running time of an algorithm is θ (n), if at once (n) gets large enough the running time is at most k2-n and at least k1 ?n for some constants k1 and k2. It is represented as shown below:
+Consider the running time of an algorithm is θ (n), if at once (n) gets large enough the running time is at most k2-n and at least k1 ?n for some constants k1 and k2.
 
 DS Asymptotic Analysis 2
