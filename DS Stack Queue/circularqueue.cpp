@@ -20,16 +20,19 @@ void enqueue(int item)
     {  
         front = 0;  
         rear = 0;  
+        queue[rear] = item;  
     }  
     else if(rear == maxsize -1 && front != 0)   
     {  
         rear = 0;  
+        queue[rear] = item;  
     }  
     else   
     {  
         rear = (rear+1) % maxsize;  
+        queue[rear] = item;  
     }  
-    queue[rear] = item;  
+    
 }  
 int dequeue()
 {
