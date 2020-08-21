@@ -134,3 +134,23 @@ A queue can be defined as an ordered list which enables insert operations to be 
 Queue is referred to be as First In First Out list.
 
 For example, people waiting in line for a rail ticket form a queue.
+
+# Linked list:
+
+Linked List can be defined as collection of objects called nodes that are randomly stored in the memory.
+
+A node contains two fields i.e. data stored at that particular address and the pointer which contains the address of the next node in the memory.
+
+The last node of the list contains pointer to the null.
+
+# Bubble sort
+
+In Bubble sort, Each element of the array is compared with its adjacent element. The algorithm processes the list in passes. A list with n elements requires n-1 passes for sorting. Consider an array A of n elements whose elements are to be sorted by using Bubble sort. The algorithm processes like following.
+
+In Pass 1, A[0] is compared with A[1], A[1] is compared with A[2], A[2] is compared with A[3] and so on. At the end of pass 1, the largest element of the list is placed at the highest index of the list.
+
+In Pass 2, A[0] is compared with A[1], A[1] is compared with A[2] and so on. At the end of Pass 2 the second largest element of the list is placed at the second highest index of the list.
+
+In pass n-1, A[0] is compared with A[1], A[1] is compared with A[2] and so on. At the end of this pass. The smallest element of the list is placed at the first index of the list.
+
+#
