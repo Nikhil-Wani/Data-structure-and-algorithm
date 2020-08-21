@@ -62,3 +62,50 @@ The performance of algorithm is measured on the basis of following properties:
 Time complexity: It is a way of representing the amount of time needed by a program to run to the completion.
 
 Space complexity: It is the amount of memory space required by an algorithm, during a course of its execution. Space complexity is required in situations when limited memory is available and for the multi user system.
+
+Asymptotic Analysis
+In mathematical analysis, asymptotic analysis of algorithm is a method of defining the mathematical boundation of its run-time performance. Using the asymptotic analysis, we can easily conclude about the average case, best case and worst case scenario of an algorithm.
+
+It is used to mathematically calculate the running time of any operation inside an algorithm.
+
+Example: Running time of one operation is x(n) and for another operation it is calculated as f(n2). It refers to running time will increase linearly with increase in 'n' for first operation and running time will increase exponentially for second operation. Similarly the running time of both operations will be same if n is significantly small.
+
+Usually the time required by an algorithm comes under three types:
+
+Worst case: It defines the input for which the algorithm takes the huge time.
+
+Average case: It takes average time for the program execution.
+
+Best case: It defines the input for which the algorithm takes the lowest time.
+
+# Asymptotic Notations:
+
+The commonly used asymptotic notations used for calculating the running time complexity of an algorithm is given below:
+
+Big oh Notation (Ο)
+Omega Notation (Ω)
+Theta Notation (θ)
+Big oh Notation (O)
+It is the formal way to express the upper boundary of an algorithm running time. It measures the worst case of time complexity or the longest amount of time, algorithm takes to complete their operation. It is represented as shown below:
+
+DS Asymptotic Analysis
+For example: If f(n) and g(n) are the two functions defined for positive integers, then f(n) is O(g(n)) as f(n) is big oh of g(n) or f(n) is on the order of g(n)) if there exists constants c and no such that:
+
+F(n)≤cg(n) for all n≥no
+
+This implies that f(n) does not grow faster than g(n), or g(n) is an upper bound on the function f(n).
+
+Omega Notation (Ω)
+It is the formal way to represent the lower bound of an algorithm's running time. It measures the best amount of time an algorithm can possibly take to complete or the best case time complexity.
+
+If we required that an algorithm takes at least certain amount of time without using an upper bound, we use big- Ω notation i.e. the Greek letter "omega". It is used to bound the growth of running time for large input size.
+
+If running time is Ω (f(n)), then for the larger value of n, the running time is at least k?f(n) for constant (k). It is represented as shown below:
+
+DS Asymptotic Analysis 1
+Theta Notation (?)
+It is the formal way to express both the upper bound and lower bound of an algorithm running time.
+
+Consider the running time of an algorithm is θ (n), if at once (n) gets large enough the running time is at most k2-n and at least k1 ?n for some constants k1 and k2. It is represented as shown below:
+
+DS Asymptotic Analysis 2
