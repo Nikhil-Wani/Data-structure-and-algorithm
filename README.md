@@ -40,4 +40,18 @@ Reusability: Data structures are reusable, i.e. once we have implemented a parti
 
 Abstraction: Data structure is specified by the ADT which provides a level of abstraction. The client program uses the data structure through interface only, without getting into the implementation details.
 
+# Algorithm:
 
+An algorithm is a procedure having well defined steps for solving a particular problem. Algorithm is finite set of logic or instructions, written in order for accomplish the certain predefined task. It is not the complete program or code, it is just a solution (logic) of a problem, which can be represented either as an informal description using a Flowchart or Pseudo code.
+
+The major categories of algorithms are given below:
+
+Sort: Algorithm developed for sorting the items in certain order.
+Search: Algorithm developed for searching the items inside a data structure.
+Delete: Algorithm developed for deleting the existing element from the data structure.
+Insert: Algorithm developed for inserting an item inside a data structure.
+Update: Algorithm developed for updating the existing element inside a data structure.
+The performance of algorithm is measured on the basis of following properties:
+
+Time complexity: It is a way of representing the amount of time needed by a program to run to the completion.
+Space complexity: It is the amount of memory space required by an algorithm, during a course of its execution. Space complexity is required in situations when limited memory is available and for the multi user system.
