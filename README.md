@@ -4,7 +4,7 @@ Data Structure can be defined as the group of data elements which provides an ef
 
 Data Structures are the main part of many computer science algorithms as they enable the programmers to handle the data in an efficient way. It plays a vitle role in enhancing the performance of a software or a program as the main function of the software is to store and retrieve the user's data as fast as possible
 
-# Basic Terminology:
+# Basic Terminology
 
 Data structures are the building blocks of any program or the software. Choosing the appropriate data structure for a program is the most difficult task for a programmer. Following terminology is used as far as data structures are concerned
 
@@ -32,7 +32,7 @@ Multiple requests: If thousands of users are searching the data simultaneously o
 
 in order to solve the above problems, data structures are used. Data is organized to form a data structure in such a way that all items are not required to be searched and required data can be searched instantly.
 
-# Advantages of Data Structures:
+# Advantages of Data Structures
 
 Efficiency: Efficiency of a program depends upon the choice of data structures. For example: suppose, we have some data and we need to perform the search for a perticular record. In that case, if we organize our data in an array, we will have to search sequentially element by element. hence, using array may not be very efficient here. There are better data structures which can make the search process efficient like ordered array, binary search tree or hash tables.
 
@@ -40,7 +40,7 @@ Reusability: Data structures are reusable, i.e. once we have implemented a parti
 
 Abstraction: Data structure is specified by the ADT which provides a level of abstraction. The client program uses the data structure through interface only, without getting into the implementation details.
 
-# Algorithm:
+# Algorithm
 
 An algorithm is a procedure having well defined steps for solving a particular problem. Algorithm is finite set of logic or instructions, written in order for accomplish the certain predefined task. It is not the complete program or code, it is just a solution (logic) of a problem, which can be represented either as an informal description using a Flowchart or Pseudo code.
 
@@ -118,7 +118,7 @@ Linear search is the simplest search algorithm and often called sequential searc
 Binary search is the search technique which works efficiently on the sorted lists. Hence, in order to search an element into some list by using binary search technique, we must ensure that the list is sorted.
 Binary search follows divide and conquer approach in which, the list is divided into two halves and the item is compared with the middle element of the list. If the match is found then, the location of middle element is returned otherwise, we search into either of the halves depending upon the result produced through the match.
 
-# Stack:
+# Stack
 
 Stack is an ordered list in which, insertion and deletion can be performed only at one end that is called top.
 
@@ -127,7 +127,7 @@ Stack is a recursive data structure having pointer to its top element.
 Stacks are sometimes called as Last-In-First-Out (LIFO) lists i.e. the element which is inserted first in the stack, will be deleted last from the stack.
 
 
-# Queue:
+# Queue
 
 A queue can be defined as an ordered list which enables insert operations to be performed at one end called REAR and delete operations to be performed at another end called FRONT.
 
@@ -135,7 +135,7 @@ Queue is referred to be as First In First Out list.
 
 For example, people waiting in line for a rail ticket form a queue.
 
-# Linked list:
+# Linked list
 
 Linked List can be defined as collection of objects called nodes that are randomly stored in the memory.
 
