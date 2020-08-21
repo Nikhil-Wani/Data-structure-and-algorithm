@@ -111,9 +111,6 @@ Searching is the process of finding some particular element in the list. If the 
 
 There are two popular search methods that are widely used in order to search some item into the list. However, choice of the algorithm depends upon the arrangement of the list.
 
-Linear Search
-Binary Search
-
 1. Linear Search
 Linear search is the simplest search algorithm and often called sequential search. In this type of searching, we simply traverse the list completely and match each element of the list with the item whose location is to be found. If the match found then location of the item is returned otherwise the algorithm return NULL.
 
