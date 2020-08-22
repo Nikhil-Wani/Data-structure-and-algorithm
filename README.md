@@ -231,7 +231,7 @@ The nodes other than the root node are partitioned into the non empty sets where
 Nodes of a tree either maintain a parent-child relationship between them or they are sister nodes.
 In a general tree, A node can have any number of children nodes but it can have only a single parent.
 
-1. <b>Binary Tree</b>
+<b>Binary Tree</b>
 
 Binary Tree is a special type of generic tree in which, each node can have at most two children. Binary tree is generally partitioned into three disjoint subsets.
 
@@ -240,7 +240,7 @@ Binary Tree is a special type of generic tree in which, each node can have at mo
 3. Right binary sub-tree.
 
 
-2. <b>Binary Search Tree</b>
+<b>Binary Search Tree</b>
 
 1. Binary Search tree can be defined as a class of binary trees, in which the nodes are arranged in a specific order. This is also called ordered binary tree.
 2. In a binary search tree, the value of all the nodes in the left sub-tree is less than the value of the root.
