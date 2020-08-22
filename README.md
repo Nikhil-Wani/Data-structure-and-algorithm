@@ -104,10 +104,10 @@ Searching is the process of finding some particular element in the list. If the 
 
 There are two popular search methods that are widely used in order to search some item into the list. However, choice of the algorithm depends upon the arrangement of the list.
 
-1. Linear Search
+<b>Linear Search</b>
 Linear search is the simplest search algorithm and often called sequential search. In this type of searching, we simply traverse the list completely and match each element of the list with the item whose location is to be found. If the match found then location of the item is returned otherwise the algorithm return NULL.
 
-2. Binary Search
+<b>Binary Search</b>
 Binary search is the search technique which works efficiently on the sorted lists. Hence, in order to search an element into some list by using binary search technique, we must ensure that the list is sorted.
 Binary search follows divide and conquer approach in which, the list is divided into two halves and the item is compared with the middle element of the list. If the match is found then, the location of middle element is returned otherwise, we search into either of the halves depending upon the result produced through the match.
 
@@ -130,7 +130,7 @@ For example, people waiting in line for a rail ticket form a queue.
 
 # Linked list 
 
-1. <b>Linked list</b>
+<b>Linked list</b>
 
 Linked List can be defined as collection of objects called nodes that are randomly stored in the memory.
 
@@ -138,23 +138,23 @@ A node contains two fields i.e. data stored at that particular address and the p
 
 The last node of the list contains pointer to the null.
 
-2. <b>Doubly linked list</b>
+<b>Doubly linked list</b>
 
 Doubly linked list is a complex type of linked list in which a node contains a pointer to the previous as well as the next node in the sequence. Therefore, in a doubly linked list, a node consists of three parts: node data, pointer to the next node in sequence (next pointer) , pointer to the previous node (previous pointer).
 
-3. <b>Circular Singly Linked List</b>
+<b>Circular Singly Linked List</b>
 
 In a circular Singly linked list, the last node of the list contains a pointer to the first node of the list. We can have circular singly linked list as well as circular doubly linked list.
 
 We traverse a circular singly linked list until we reach the same node where we started. The circular singly liked list has no beginning and no ending. There is no null value present in the next part of any of the nodes.
 
-4. <b>Circular Doubly Linked List</b>
+<b>Circular Doubly Linked List</b>
 
 Circular doubly linked list is a more complexed type of data structure in which a node contain pointers to its previous node as well as the next node. Circular doubly linked list doesn't contain NULL in any of the node. The last node of the list contains the address of the first node of the list. The first node of the list also contain address of the last node in its previous pointer.
 
 # Sorting Algorithm
 
-1. <b>Bubble sort</b>
+<b>Bubble sort</b>
 
 In Bubble sort, Each element of the array is compared with its adjacent element. The algorithm processes the list in passes. A list with n elements requires n-1 passes for sorting. Consider an array A of n elements whose elements are to be sorted by using Bubble sort. The algorithm processes like following.
 
@@ -164,7 +164,7 @@ In Pass 2, A[0] is compared with A[1], A[1] is compared with A[2] and so on. At 
 
 In pass n-1, A[0] is compared with A[1], A[1] is compared with A[2] and so on. At the end of this pass. The smallest element of the list is placed at the first index of the list.
 
-2. <b>Insertion sort</b>
+<b>Insertion sort</b>
 
 Insertion sort is the simple sorting algorithm which is commonly used in the daily lives while ordering a deck of cards. In this algorithm, we insert each element onto its proper place in the sorted array. This is less efficient than the other sort algorithms like quick sort, merge sort, etc.
 
@@ -176,7 +176,7 @@ To insert an element A[k] to its proper index, we must compare it with all other
 
 All the elements from A[k-1] to A[j] need to be shifted and A[k] will be moved to A[j+1].
 
-3. <b>Merge sort</b>
+<b>Merge sort</b>
 
 Merge sort is the algorithm which follows divide and conquer approach. Consider an array A of n number of elements. The algorithm processes the elements in 3 steps.
 
@@ -186,7 +186,7 @@ Conquer means sort the two sub-arrays recursively using the merge sort.
 
 Combine the sub-arrays to form a single final sorted array maintaining the ordering of the array.
 
-4. <b>Selection sort</b>
+<b>Selection sort</b>
 
 In selection sort, the smallest value among the unsorted elements of the array is selected in every pass and inserted to its appropriate position into the array.
 
@@ -200,7 +200,7 @@ In 2nd pas, position pos of the smallest element present in the sub-array A[n-1]
 
 In n-1th pass, position pos of the smaller element between A[n-1] and A[n-2] is to be found. Then, swap, A[pos] and A[n-1].
 
-5. <b>Quick Sort</b>
+<b>Quick Sort</b>
 
 Quick sort is the widely used sorting algorithm that makes n log n comparisons in average case for sorting of an array of n elements. This algorithm follows divide and conquer approach. The algorithm processes the array in the following way.
 
@@ -246,7 +246,6 @@ Binary Tree is a special type of generic tree in which, each node can have at mo
 2. In a binary search tree, the value of all the nodes in the left sub-tree is less than the value of the root.
 3. Similarly, value of all the nodes in the right sub-tree is greater than or equal to the value of the root.
 4. This rule will be recursively applied to all the left and right sub-trees of the root.
-
 
 
 # Vector
