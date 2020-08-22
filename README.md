@@ -154,7 +154,7 @@ Circular doubly linked list is a more complexed type of data structure in which 
 
 #Sorting Algorithm
 
-1. Bubble sort
+1. <b>Bubble sort</b>
 
 In Bubble sort, Each element of the array is compared with its adjacent element. The algorithm processes the list in passes. A list with n elements requires n-1 passes for sorting. Consider an array A of n elements whose elements are to be sorted by using Bubble sort. The algorithm processes like following.
 
@@ -164,7 +164,7 @@ In Pass 2, A[0] is compared with A[1], A[1] is compared with A[2] and so on. At 
 
 In pass n-1, A[0] is compared with A[1], A[1] is compared with A[2] and so on. At the end of this pass. The smallest element of the list is placed at the first index of the list.
 
-2. Insertion sort
+2. <b>Insertion sort</b>
 
 Insertion sort is the simple sorting algorithm which is commonly used in the daily lives while ordering a deck of cards. In this algorithm, we insert each element onto its proper place in the sorted array. This is less efficient than the other sort algorithms like quick sort, merge sort, etc.
 
@@ -176,7 +176,7 @@ To insert an element A[k] to its proper index, we must compare it with all other
 
 All the elements from A[k-1] to A[j] need to be shifted and A[k] will be moved to A[j+1].
 
-3. Merge sort
+3. <b>Merge sort</b>
 
 Merge sort is the algorithm which follows divide and conquer approach. Consider an array A of n number of elements. The algorithm processes the elements in 3 steps.
 
@@ -186,7 +186,7 @@ Conquer means sort the two sub-arrays recursively using the merge sort.
 
 Combine the sub-arrays to form a single final sorted array maintaining the ordering of the array.
 
-4. Quick Sort
+4. <b>Quick Sort</b>
 
 Quick sort is the widely used sorting algorithm that makes n log n comparisons in average case for sorting of an array of n elements. This algorithm follows divide and conquer approach. The algorithm processes the array in the following way.
 
@@ -209,6 +209,7 @@ start from element pointed by left and compare each element in its way with the 
 2.  [loc] < a[right], then swap the two values and go to step 2.
 
 3.  Set, loc = left.
+
 
 5. <b>Selection sort</b>
 
