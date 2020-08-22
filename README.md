@@ -211,6 +211,11 @@ start from element pointed by left and compare each element in its way with the 
 3.  Set, loc = left.
 
 
+
+
+
+
+
 5. <b>Selection sort</b>
 
 In selection sort, the smallest value among the unsorted elements of the array is selected in every pass and inserted to its appropriate position into the array.
