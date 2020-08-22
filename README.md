@@ -8,7 +8,7 @@ Data Structures are the main part of many computer science algorithms as they en
 
 Data structures are the building blocks of any program or the software. Choosing the appropriate data structure for a program is the most difficult task for a programmer. Following terminology is used as far as data structures are concerned
 
-1 .Data: Data can be defined as an elementary value or the collection of values, for example, student's name and its id are the data about the student.
+1. Data: Data can be defined as an elementary value or the collection of values, for example, student's name and its id are the data about the student.
 
 2. Group Items: Data items which have subordinate data items are called Group item, for example, name of a student can have first name and the last name.
 
