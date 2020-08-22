@@ -82,12 +82,6 @@ Best case: It defines the input for which the algorithm takes the lowest time.
 
 The commonly used asymptotic notations used for calculating the running time complexity of an algorithm is given below:
 
-Big oh Notation (Ο)
-
-Omega Notation (Ω)
-
-Theta Notation (θ)
-
 Big oh Notation (O):
 
 It is the formal way to express the upper boundary of an algorithm running time. It measures the worst case of time complexity or the longest amount of time, algorithm takes to complete their operation.
