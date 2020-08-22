@@ -243,11 +243,8 @@ Binary Tree is a special type of generic tree in which, each node can have at mo
 2. <b>Binary Search Tree</b>
 
 1. Binary Search tree can be defined as a class of binary trees, in which the nodes are arranged in a specific order. This is also called ordered binary tree.
-
 2. In a binary search tree, the value of all the nodes in the left sub-tree is less than the value of the root.
-
 3. Similarly, value of all the nodes in the right sub-tree is greater than or equal to the value of the root.
-
 4. This rule will be recursively applied to all the left and right sub-trees of the root.
 
 
