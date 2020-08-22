@@ -224,6 +224,16 @@ start from element pointed by left and compare each element in its way with the 
 
 3.  Set, loc = left.
 
+# Tree
+
+A Tree is a recursive data structure containing the set of one or more data nodes where one node is designated as the root of the tree while the remaining nodes are called as the children of the root.
+The nodes other than the root node are partitioned into the non empty sets where each one of them is to be called sub-tree.
+Nodes of a tree either maintain a parent-child relationship between them or they are sister nodes.
+In a general tree, A node can have any number of children nodes but it can have only a single parent.
+
+
+
+
 # Vector
 
 Vector is a template class in STL (Standard Template Library) of C++ programming language. C++ vectors are sequence containers that store elements. Specifically used to work with dynamic data, C++ vectors may expand depending on the elements they contain. That makes it different from a fixed-size array.
