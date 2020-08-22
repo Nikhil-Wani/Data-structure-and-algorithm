@@ -1,3 +1,3 @@
-1.Vector demo
+1. Vector demo
 
 2. deque demo
