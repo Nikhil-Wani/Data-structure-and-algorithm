@@ -2,10 +2,13 @@
 
 A graph can be defined as group of vertices and edges that are used to connect these vertices. A graph can be seen as a cyclic tree, where the vertices (Nodes) maintain any complex relationship among them instead of having parent child relationship.
 
-Graph Traversal Algorithm
-In this part of the tutorial we will discuss the techniques by using which, we can traverse all the vertices of the graph.
+<b>Graph Traversal Algorithm</b>
 
 Traversing the graph means examining all the nodes and vertices of the graph. There are two standard methods by using which, we can traverse the graphs. Lets discuss each one of them in detail.
+
+<b>Adjacency Matrix</b>'
+
+An adjacency matrix is a way of representing a graph G = {V, E} as a matrix of booleans.
 
 <b>Breadth First Search (BFS) Algorithm</b>
 
@@ -19,3 +22,7 @@ Depth first search (DFS) algorithm starts with the initial node of the graph G, 
 
 The data structure which is being used in DFS is stack. The process is similar to BFS algorithm. In DFS, the edges that leads to an unvisited node are called discovery edges while the edges that leads to an already visited node are called block edges.
 
+<b>Bellman Ford's Algorithm</b>
+
+Bellman Ford algorithm helps us find the shortest path from a vertex to all other vertices of a weighted graph.
+It is similar to Dijkstra's algorithm but it can work with graphs in which edges can have negative weights.
