@@ -99,6 +99,10 @@ If running time is Ω (f(n)), then for the larger value of n, the running time i
 It is the formal way to express both the upper bound and lower bound of an algorithm running time.
 Consider the running time of an algorithm is θ (n), if at once (n) gets large enough the running time is at most k2-n and at least k1 ?n for some constants k1 and k2.
 
+# Vector
+
+Vector is a template class in STL (Standard Template Library) of C++ programming language. C++ vectors are sequence containers that store elements. Specifically used to work with dynamic data, C++ vectors may expand depending on the elements they contain. That makes it different from a fixed-size array.
+
 # Searching
 Searching is the process of finding some particular element in the list. If the element is present in the list, then the process is called successful and the process returns the location of that element, otherwise the search is called unsuccessful.
 
@@ -239,7 +243,6 @@ Binary Tree is a special type of generic tree in which, each node can have at mo
 2. left sub-tree which is also a binary tree.
 3. Right binary sub-tree.
 
-
 <b>Binary Search Tree</b>
 
 1. Binary Search tree can be defined as a class of binary trees, in which the nodes are arranged in a specific order. This is also called ordered binary tree.
@@ -247,16 +250,46 @@ Binary Tree is a special type of generic tree in which, each node can have at mo
 3. Similarly, value of all the nodes in the right sub-tree is greater than or equal to the value of the root.
 4. This rule will be recursively applied to all the left and right sub-trees of the root.
 
+<b>AVL Tree</b>
+
+AVL tree is a self-balancing binary search tree in which each node maintains extra information called a balance factor whose value is either -1, 0 or +1.
+AVL tree got its name after its inventor Georgy Adelson-Velsky and Landis.
+
+<b>B-tree</b>
+
+B-tree is a special type of self-balancing search tree in which each node can contain more than one key and can have more than two children. It is a generalized form of the binary search tree.
+It is also known as a height-balanced m-way tree
+
+<b>B+ Tree</b>
+
+A B+ tree is an advanced form of a self-balancing tree in which all the values are present in the leaf level.
+
+An important concept to be understood before learning B+ tree is multilevel indexing. In multilevel indexing, the index of indices is created as in figure below. It makes accessing the data easier and faster.
+
+<b>Red-Black Tree</b>
+
+In this tutorial, you will learn what a red-black tree is. Also, you will find working examples of various operations performed on a red-black tree in C, C++, Java and Python.
+Red-Black tree is a self-balancing binary search tree in which each node contains an extra bit for denoting the color of the node, either red or black.
+
+A red-black tree satisfies the following properties:
+
+1. Red/Black Property: Every node is colored, either red or black.
+2. Root Property: The root is black.
+3. Leaf Property: Every leaf (NIL) is black.
+4. Red Property: If a red node has children then, the children are always black.
+5. Depth Property: For each node, any simple path from this node to any of its descendant leaf has the same black-depth (the number of black nodes).
+
 # Graph
 
 A graph can be defined as group of vertices and edges that are used to connect these vertices. A graph can be seen as a cyclic tree, where the vertices (Nodes) maintain any complex relationship among them instead of having parent child relationship.
 
-
-next →← prev
-Graph Traversal Algorithm
-In this part of the tutorial we will discuss the techniques by using which, we can traverse all the vertices of the graph.
+<b>Graph Traversal Algorithm</b>
 
 Traversing the graph means examining all the nodes and vertices of the graph. There are two standard methods by using which, we can traverse the graphs. Lets discuss each one of them in detail.
+
+<b>Adjacency Matrix</b>
+In this tutorial, you will learn what an adjacency matrix is. Also, you will find working examples of adjacency matrix in C, C++, Java and Python.
+An adjacency matrix is a way of representing a graph G = {V, E} as a matrix of booleans.
 
 <b>Breadth First Search (BFS) Algorithm</b>
 
@@ -270,7 +303,95 @@ Depth first search (DFS) algorithm starts with the initial node of the graph G, 
 
 The data structure which is being used in DFS is stack. The process is similar to BFS algorithm. In DFS, the edges that leads to an unvisited node are called discovery edges while the edges that leads to an already visited node are called block edges.
 
+<b>Bellman Ford's Algorithm</b>
 
-# Vector
+Bellman Ford algorithm helps us find the shortest path from a vertex to all other vertices of a weighted graph.
+It is similar to Dijkstra's algorithm but it can work with graphs in which edges can have negative weights.
 
-Vector is a template class in STL (Standard Template Library) of C++ programming language. C++ vectors are sequence containers that store elements. Specifically used to work with dynamic data, C++ vectors may expand depending on the elements they contain. That makes it different from a fixed-size array.
+# Greedy Algorithm
+
+A greedy algorithm is an approach for solving a problem by selecting the best option available at the moment, without worrying about the future result it would bring. In other words, the locally best choices aim at producing globally best results.
+
+This algorithm may not be the best option for all the problems. It may produce wrong results in some cases.
+
+This algorithm never goes back to reverse the decision made. This algorithm works in a top-down approach.
+
+The main advantage of this algorithm is:
+
+1. The algorithm is easier to describe.
+2. This algorithm can perform better than other algorithms (but, not in all cases).
+
+<b>Ford-Fulkerson algorithm </b>
+
+Ford-Fulkerson algorithm is a greedy approach for calculating the maximum possible flow in a network or a graph.
+A term, flow network, is used to describe a network of vertices and edges with a source (S) and a sink (T). Each vertex, except S and T, can receive and send an equal amount of stuff through it. S can only send and T can only receive stuff.
+
+<b>Dijkstra's Algorithm</b>
+
+Dijkstra's algorithm allows us to find the shortest path between any two vertices of a graph.
+It differs from the minimum spanning tree because the shortest distance between two vertices might not include all the vertices of the graph.
+
+<b>Kruskal's Algorithm</b>
+
+Kruskal's algorithm is a minimum spanning tree algorithm that takes a graph as input and finds the subset of the edges of that graph which
+
+1. form a tree that includes every vertex
+2. has the minimum sum of weights among all the trees that can be formed from the graph
+
+<b>Prim's Algorithm</b>
+
+Prim's algorithm is a minimum spanning tree algorithm that takes a graph as input and finds the subset of the edges of that graph which
+
+1. form a tree that includes every vertex
+2. has the minimum sum of weights among all the trees that can be formed from the graph
+
+<b>Huffman Coding</b>
+
+Huffman Coding is a technique of compressing data to reduce its size without losing any of the details. It was first developed by David Huffman.
+Huffman Coding is generally useful to compress the data in which there are frequently occurring characters.
+
+# Dynamic Programming
+
+Dynamic Programming is a technique in computer programming that helps to efficiently solve a class of problems that have overlapping subproblems and optimal substructure property.
+Such problems involve repeatedly calculating the value of the same subproblems to find the optimum solution. 
+
+<b>Floyd-Warshall Algorithm</b>
+
+Floyd-Warshall Algorithm is an algorithm for finding the shortest path between all the pairs of vertices in a weighted graph. This algorithm works for both the directed and undirected weighted graphs. But, it does not work for the graphs with negative cycles (where the sum of the edges in a cycle is negative).
+
+A weighted graph is a graph in which each edge has a numerical value associated with it.
+
+Floyd-Warhshall algorithm is also called as Floyd's algorithm, Roy-Floyd algorithm, Roy-Warshall algorithm, or WFI algorithm.
+
+This algorithm follows the dynamic programming approach to find the shortest paths.
+
+<b>Longest Common Subsequence</b>
+In this tutorial, you will learn how the longest common subsequence is found. Also, you will find working examples of the longest common subsequence in C, C++, Java and Python.
+The longest common subsequence (LCS) is defined as the longest subsequence that is common to all the given sequences, provided that the elements of the subsequence are not required to occupy consecutive positions within the original sequences.
+
+If S1 and S2 are the two given sequences then, Z is the common subsequence of S1 and S2 if Z is a subsequence of both S1 and S2. Furthermore, Z must be a strictly increasing sequence of the indices of both S1 and S2.
+
+In a strictly increasing sequence, the indices of the elements chosen from the original sequences must be in ascending order in Z.
+
+If
+
+S1 = {B, C, D, A, A, C, D}
+Then, {A, D, B} cannot be a subsequence of S1 as the order of the elements is not the same (ie. not strictly increasing sequence).
+
+# Other Algorithm
+
+<b>Backtracking Algorithm</b>
+
+A backtracking algorithm is a problem-solving algorithm that uses a brute force approach for finding the desired output.
+
+The Brute force approach tries out all the possible solutions and chooses the desired/best solutions.
+
+The term backtracking suggests that if the current solution is not suitable, then backtrack and try other solutions. Thus, recursion is used in this approach.
+
+This approach is used to solve problems that have multiple solutions. If you want an optimal solution, you must go for dynamic programming.
+
+<b>Rabin-Karp Algorithm</b>
+
+Rabin-Karp algorithm is an algorithm used for searching/matching patterns in the text using a hash function. Unlike Naive string matching algorithm, it does not travel through every character in the initial phase rather it filters the characters that do not match and then performs the comparison.
+
+A hash function is a tool to map a larger input value to a smaller output value. This output value is called the hash value.
