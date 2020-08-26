@@ -103,7 +103,28 @@ Consider the running time of an algorithm is θ (n), if at once (n) gets large e
 
 Vector is a template class in STL (Standard Template Library) of C++ programming language. C++ vectors are sequence containers that store elements. Specifically used to work with dynamic data, C++ vectors may expand depending on the elements they contain. That makes it different from a fixed-size array.
 
+# Set Multiset
+
+<b>Set</b>
+
+1. Stores the values in sorted order.
+2. Stores only unique values.
+3. Elements can only be inserted or deleted but cannot be modified.
+4. We can erase more than 1 element by giving start iterator and end iterator position.
+5. Traversal using iterators.
+6. Sets are implemented as Binary Search Tree.
+
+<b>Multiset</b>
+
+1. Stores elements in sorted order.
+2. It allows storage of multiple elements.
+3. We can erase more than 1 element by giving start iterator and end iterator.
+
+Note:- All other properties similar to set.
+
+
 # Searching
+
 Searching is the process of finding some particular element in the list. If the element is present in the list, then the process is called successful and the process returns the location of that element, otherwise the search is called unsuccessful.
 
 There are two popular search methods that are widely used in order to search some item into the list. However, choice of the algorithm depends upon the arrangement of the list.
