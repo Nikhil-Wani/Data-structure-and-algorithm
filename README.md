@@ -268,7 +268,6 @@ An important concept to be understood before learning B+ tree is multilevel inde
 
 <b>Red-Black Tree</b>
 
-In this tutorial, you will learn what a red-black tree is. Also, you will find working examples of various operations performed on a red-black tree in C, C++, Java and Python.
 Red-Black tree is a self-balancing binary search tree in which each node contains an extra bit for denoting the color of the node, either red or black.
 
 A red-black tree satisfies the following properties:
@@ -287,8 +286,8 @@ A graph can be defined as group of vertices and edges that are used to connect t
 
 Traversing the graph means examining all the nodes and vertices of the graph. There are two standard methods by using which, we can traverse the graphs. Lets discuss each one of them in detail.
 
-<b>Adjacency Matrix</b>
-In this tutorial, you will learn what an adjacency matrix is. Also, you will find working examples of adjacency matrix in C, C++, Java and Python.
+<b>Adjacency Matrix</b>'
+
 An adjacency matrix is a way of representing a graph G = {V, E} as a matrix of booleans.
 
 <b>Breadth First Search (BFS) Algorithm</b>
@@ -366,7 +365,7 @@ Floyd-Warhshall algorithm is also called as Floyd's algorithm, Roy-Floyd algorit
 This algorithm follows the dynamic programming approach to find the shortest paths.
 
 <b>Longest Common Subsequence</b>
-In this tutorial, you will learn how the longest common subsequence is found. Also, you will find working examples of the longest common subsequence in C, C++, Java and Python.
+
 The longest common subsequence (LCS) is defined as the longest subsequence that is common to all the given sequences, provided that the elements of the subsequence are not required to occupy consecutive positions within the original sequences.
 
 If S1 and S2 are the two given sequences then, Z is the common subsequence of S1 and S2 if Z is a subsequence of both S1 and S2. Furthermore, Z must be a strictly increasing sequence of the indices of both S1 and S2.
