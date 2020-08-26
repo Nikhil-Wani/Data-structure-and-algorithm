@@ -1,6 +1,9 @@
 # Some Demo codes
 
-1. Vector demo
+<b>Vector demo</b>
+
+Vector is a template class in STL (Standard Template Library) of C++ programming language. C++ vectors are sequence containers that store elements. Specifically used to work with dynamic data, C++ vectors may expand depending on the elements they contain. That makes it different from a fixed-size array.
+
 
 <b>deque demo</b>
 
